@@ -9,13 +9,15 @@ a {
 body {
   border: 0;
   margin: 0;
+  object-fit: cover;
+  background-size: 100% 100%;
 }
 
 h1 {
   font-size: 50px;
   text-align: center;
   margin: 0;
-  color: white;
+  color: #659DBD;
 }
 
 h2 {
@@ -32,7 +34,7 @@ h2 {
 }
 
 .header{
-  background-color: #FBEEC1;
+  //background-color: #FBEEC1;
 }
 
 .nav {
@@ -52,7 +54,7 @@ h2 {
 }
 
 .new-game {
-  background-color: #659DBD;
+  //background-color: #659DBD;
 }
 
 .new-game .container {
@@ -182,7 +184,7 @@ h2 {
 }
 
 .categories {
-  background-color: #8D8741;
+  //background-color: #8D8741;
 }
 
 .categories-title {
@@ -270,4 +272,47 @@ h2 {
 .Puzzle-count {
   font-size: 50px;
   color:  #BC986A;
+}
+
+.footer {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.footer-YandexGames {
+  width: 60px;
+  height: 45px;
+  border-radius: 20px;
+}
+
+.contacts {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-title {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.contacts-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts-icon {
+  width: 30px;
+  height: 30px;
 }
