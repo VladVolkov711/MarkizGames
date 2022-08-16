@@ -33,9 +33,7 @@ h2 {
     width: 90%;
 }
 
-.header{
-  //background-color: #FBEEC1;
-}
+/*---------------header----------------*/
 
 .nav {
   display: flex;
@@ -52,6 +50,10 @@ h2 {
   font-size: 25px;
   color:  black;
 }
+
+/*---------------header----------------*/
+
+/*---------------block1----------------*/
 
 .new-game {
   //background-color: #659DBD;
@@ -100,6 +102,13 @@ h2 {
 
 .title-name-span {
   color: white;
+}
+
+.screenshots {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .screenshots-img {
@@ -183,8 +192,15 @@ h2 {
     }
 }
 
-.categories {
-  //background-color: #8D8741;
+/*---------------block1----------------*/
+
+/*---------------block2----------------*/
+
+.categories-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .categories-title {
@@ -193,15 +209,17 @@ h2 {
 
 .categories-blocks {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
 }
 
 .categories-a {
   width: 200px;
   height: 200px;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 52px;
   margin-bottom: 50px;
 }
 
@@ -238,7 +256,6 @@ h2 {
 
 .categories-title-openworld {
   left: 10%;
-  font-size: 22px;
 }
 
 .categories-title-moba {
@@ -273,6 +290,10 @@ h2 {
   font-size: 50px;
   color:  #BC986A;
 }
+
+/*---------------block2----------------*/
+
+/*---------------footer----------------*/
 
 .footer {
   height: 100px;
@@ -315,4 +336,633 @@ h2 {
 .contacts-icon {
   width: 30px;
   height: 30px;
+}
+
+/*---------------footer----------------*/
+
+@media (max-width: 1200px) {
+
+/*---------------block1----------------*/
+
+  .title {
+    padding: 15px;
+  }
+
+  .cover img{
+    width: 500px;
+  }
+
+  .title-name {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .screenshots-img {
+    width: 150px;
+    height: 90px;
+  }
+  /*---------------block1----------------*/
+
+  /*---------------block2----------------*/
+
+  .categories-title {
+    padding: 25px;
+  }
+
+  .categories-a {
+    margin-left: 70px;
+  }
+
+  /*---------------block2----------------*/
+}
+
+@media (max-width: 1100px) {
+
+/*---------------block1----------------*/
+
+.new-game .container {
+  height: 450px;
+}
+
+  .cover img{
+    width: 400px;
+  }
+
+  .screenshots-img {
+    width: 130px;
+    height: 90px;
+  }
+  /*---------------block1----------------*/
+
+  /*---------------block2----------------*/
+
+  .categories-a {
+    width: 180px;
+    height: 180px;
+    margin-left: 32px;
+  }
+  /*---------------block2----------------*/
+}
+
+@media (max-width: 1000px) {
+
+/*---------------block1----------------*/
+
+.new-game .container {
+  height: 400px;
+}
+
+  .slider{
+      height: 300px;
+  }
+
+  .cover img{
+    width: 350px;
+  }
+
+  .title-name {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .screenshots-img {
+    width: 120px;
+    height: 80px;
+  }
+
+  .description {
+    margin-left: 47px;
+    padding-top: 15px;
+  }
+
+  .text-description {
+    font-size: 17px;
+  }
+
+  .link-a {
+    margin-left: 48px;
+  }
+
+    /*---------------block1----------------*/
+
+    /*---------------block2----------------*/
+
+    .categories-a {
+      width: 150px;
+      height: 150px;
+      margin-left: 52px;
+      margin-bottom: 100px;
+    }
+  /*---------------block2----------------*/
+}
+
+@media (max-width: 870px) {
+
+/*---------------block1----------------*/
+
+  .cover img{
+    width: 320px;
+  }
+
+  .screenshots-img {
+    width: 110px;
+    height: 70px;
+  }
+
+    /*---------------block1----------------*/
+
+    /*---------------block2----------------*/
+
+    .categories-a {
+      width: 60px;
+      height: 60px;
+      margin-left: 20px;
+      margin-right: 130px;
+      margin-bottom: 150px;
+    }
+
+    .categories-block {
+      width: 150px;
+      height: 150px;
+    }
+
+    .categories-title-block {
+      top: 25px;
+      left: 30%;
+      font-size: 20px;
+      color: white;
+    }
+
+    .categories-color-back {
+      bottom: 154px;
+    }
+
+    .categories-back-count {
+      width: 50px;
+      height: 50px;
+      border-radius: 15px;
+      bottom: 250px;
+      left: 49px;
+    }
+
+    .Puzzle-count {
+      font-size: 40px;
+    }
+
+    .categories-title-shooter {
+      left: 24%;
+    }
+
+    .categories-title-casual {
+      left: 14%;
+    }
+
+    .categories-title-race {
+      left: 30%;
+    }
+
+    .categories-title-openworld {
+      left: 2px;
+    }
+
+    .categories-title-moba {
+      left: 33%;
+    }
+  /*---------------block2----------------*/
+}
+
+@media (max-width: 750px) {
+
+/*---------------header----------------*/
+
+.nav {
+  height: 50px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.CompanyName {
+  font-size: 20px;
+}
+
+/*---------------header----------------*/
+
+/*---------------block1----------------*/
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .new-game .container {
+    height: 320px;
+  }
+
+  .title {
+    padding: 10px;
+  }
+
+  .slider{
+      height: 250px;
+  }
+
+  .cover img{
+    width: 250px;
+  }
+
+  .title-name {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .screenshots-img {
+    width: 90px;
+    height: 60px;
+  }
+
+  .description {
+    margin-left: 30px;
+    padding-top: 10px;
+  }
+
+  .text-description {
+    font-size: 15px;
+  }
+
+  .link-a {
+    margin-left: 27px;
+  }
+
+  .link-in-game {
+    width: 90px;
+    height: 40px;
+  }
+
+  .link-span {
+    font-size: 15px;
+  }
+
+    /*---------------block1----------------*/
+
+    /*---------------block2----------------*/
+
+    .categories-a {
+      width: 40px;
+      height: 40px;
+      margin-left: 25px;
+      margin-right: 100px;
+      margin-bottom: 120px;
+    }
+
+    .categories-title {
+      padding: 10px;
+    }
+
+    .categories-block {
+      width: 120px;
+      height: 120px;
+    }
+
+    .categories-title-block {
+      top: 15px;
+      left: 30%;
+      font-size: 15px;
+    }
+
+    .categories-color-back {
+      bottom: 124px;
+    }
+
+    .categories-back-count {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      bottom: 200px;
+      left: 39px;
+    }
+
+    .Puzzle-count {
+      font-size: 35px;
+    }
+
+    .categories-title-shooter {
+      left: 25%;
+    }
+
+    .categories-title-casual {
+      left: 15%;
+    }
+
+    .categories-title-race {
+      left: 30%;
+    }
+
+    .categories-title-openworld {
+      left: 6px;
+    }
+
+    .categories-title-moba {
+      left: 33%;
+    }
+  /*---------------block2----------------*/
+}
+
+@media (max-width: 600px) {
+
+/*---------------block1----------------*/
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .new-game .container {
+    height: 253px;
+  }
+
+  .title {
+    padding: 8px;
+  }
+
+  .slider{
+    height: 200px;
+  }
+
+  .cover img{
+    width: 200px;
+  }
+
+  .title-name {
+    font-size: 17px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  .screenshots-img {
+    width: 75px;
+    height: 45px;
+  }
+
+  .text-description {
+    font-size: 12px;
+  }
+
+  .link-in-game {
+    width: 70px;
+    height: 30px;
+  }
+
+  .link-span {
+    font-size: 12px;
+  }
+
+    /*---------------block1----------------*/
+
+    /*---------------block2----------------*/
+
+    .categories-a {
+      width: 30px;
+      height: 30px;
+      margin-left: 20px;
+      margin-right: 100px;
+      margin-bottom: 112px;
+    }
+
+    .categories-block {
+      width: 120px;
+      height: 120px;
+    }
+
+    .categories-title-block {
+      top: 17px;
+      left: 30%;
+      font-size: 15px;
+      color: white;
+    }
+
+    .categories-color-back {
+      bottom: 124px;
+    }
+
+    .categories-back-count {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      bottom: 205px;
+      left: 42px;
+    }
+
+    .Puzzle-count {
+      font-size: 35px;
+    }
+
+    .categories-title-shooter {
+      left: 24%;
+    }
+
+    .categories-title-casual {
+      left: 19%;
+    }
+
+    .categories-title-race {
+      left: 30%;
+    }
+
+    .categories-title-openworld {
+      left: 6px;
+    }
+  /*---------------block2----------------*/
+
+  /*---------------footer----------------*/
+
+  .footer {
+    height: 80px;
+  }
+
+  .content-footer {
+    height: 80px;
+  }
+
+  .footer-YandexGames {
+    width: 50px;
+    height: 35px;
+    border-radius: 15px;
+  }
+
+  .contacts-title {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  .contacts-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+/*---------------footer----------------*/
+}
+
+@media (max-width: 517px) {
+
+/*---------------header----------------*/
+
+.CompanyName {
+  display: none;
+}
+
+/*---------------header----------------*/
+
+/*---------------block1----------------*/
+
+.new-game .container {
+  height: 331px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  padding: 8px;
+}
+
+.slider{
+  height: 200px;
+}
+
+.cover {
+  width: 100%;
+  height: 200px;
+}
+
+.cover img{
+  width: 100%;
+  height: 200px;
+}
+
+.title-name {
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.screenshots {
+  display: none;
+}
+
+.description {
+  margin-left: 30px;
+  padding-top: 0;
+}
+
+.text-description {
+  font-size: 10px;
+}
+
+.link-in-game {
+  width: 60px;
+  height: 25px;
+}
+
+.link-span {
+  font-size: 11px;
+}
+
+/*---------------block1----------------*/
+
+/*---------------block2----------------*/
+
+.categories-title {
+  padding: 20px;
+}
+
+.categories-a {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 60px;
+  margin-bottom: 100px;
+}
+
+.categories-block {
+  width: 90px;
+  height: 90px;
+}
+
+.categories-title-block {
+  top: 15px;
+  left: 30%;
+  font-size: 12px;
+}
+
+.categories-color-back {
+  bottom: 94px;
+}
+
+.categories-back-count {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  bottom: 150px;
+  left: 30px;
+}
+
+.Puzzle-count {
+  font-size: 27px;
+}
+
+.categories-title-shooter {
+  left: 25%;
+}
+
+.categories-title-casual {
+  left: 15%;
+}
+
+.categories-title-openworld {
+  left: 1px;
+}
+/*---------------block2----------------*/
+
+/*---------------footer----------------*/
+
+.footer {
+  height: 80px;
+}
+
+.content-footer {
+  height: 80px;
+}
+
+.footer-YandexGames {
+  width: 50px;
+  height: 35px;
+  border-radius: 15px;
+}
+
+.contacts-title {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.contacts-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/*---------------footer----------------*/
 }
