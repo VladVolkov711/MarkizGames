@@ -1,3 +1,356 @@
+.new-nav {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.new-logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.new-CompanyName {
+  font-size: 25px;
+  color:  black;
+}
+
 .games {
   height: 485px;
+}
+
+.item-games {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.item-block {
+  display: flex;
+  justify-content: space-around;
+  width: 550px;
+  margin-bottom: 30px;
+}
+
+.item-img {
+  width: 300px;
+  height: 200px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #DAAD86;
+  height: 200px;
+}
+
+.item-description {
+  margin: 20px;
+  height: 100px;
+}
+
+.item-description-span {
+  font-size: 17px;
+  margin-top: 20px;
+  color: white;
+}
+
+.item-link {
+  width: 100%;
+  height: 100%;
+}
+
+.item-link-in-game {
+  width: 120px;
+  height: 50px;
+  border-style: none;
+  border-radius: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.item-link-in-game:hover {
+  background-color: #FBEEC1;
+}
+
+.item-link-span {
+  font-size: 20px;
+  color:  #659DBD;
+}
+
+.new-footer {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.new-content-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.new-footer-YandexGames {
+  width: 60px;
+  height: 45px;
+  border-radius: 20px;
+}
+
+.new-contacts {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-contacts-title {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.new-contacts-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-contacts-icon {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 1200px) {
+
+  .item-block {
+    width: 450px;
+  }
+
+  .item-img {
+    width: 280px;
+    height: 180px;
+  }
+
+  .item-info {
+    height: 180px;
+  }
+
+  .item-description {
+    margin: 15px;
+    height: 80px;
+  }
+
+  .item-description-span {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .item-link-in-game {
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+  }
+
+  .item-link-span {
+    font-size: 20px;
+  }
+
+@media (max-width: 1016px) {
+
+  .item-block {
+    width: 400px;
+  }
+
+  .item-img {
+    width: 250px;
+    height: 150px;
+  }
+  .item-info {
+    height: 150px;
+  }
+
+  .item-description {
+    margin: 10px;
+  }
+
+  .item-description-span {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .item-link-in-game {
+    border-radius: 40px;
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+  }
+
+  .item-link-span {
+    font-size: 15px;
+  }
+
+@media (max-width: 905px) {
+
+    .item-block {
+      width: 320px;
+    }
+
+    .item-img {
+      width: 190px;
+    }
+
+    .item-description {
+      margin: 5px;
+    }
+
+    .item-description-span {
+      font-size: 8px;
+      margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 752px) {
+
+    .item-block {
+      width: 290px;
+    }
+
+    .item-img {
+      width: 150px;
+      height: 120px;
+    }
+
+    .item-info {
+      height: 120px;
+    }
+
+    .item-description {
+      margin: 5px;
+    }
+
+    .item-description-span {
+      font-size: 8px;
+      margin-top: 10px;
+    }
+
+    .item-link-in-game {
+      border-radius: 15px;
+      width: 75px;
+      height: 25px;
+      margin-left: 5px;
+      margin-top: 5px;
+      }
+    }
+
+    .item-link-span {
+      font-size: 15px;
+    }
+
+    @media (max-width: 657px) {
+
+        .item-block {
+          width: 230px;
+        }
+
+        .item-img {
+          width: 100px;
+          height: 90px;
+        }
+
+        .item-info {
+          height: 90px;
+        }
+
+        .item-description {
+          margin-left: 10px;
+          height: 40px;
+        }
+
+        .item-description-span {
+          font-size: 7px;
+          margin-top: 0px;
+        }
+
+        .item-link-in-game {
+          margin-left: 50px;
+          margin-top: 10px;
+        }
+
+        .item-link-span {
+          font-size: 15px;
+        }
+
+    }
+
+    @media (max-width: 510px) {
+
+      .item-games {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+      }
+
+      .item-block {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+
+      .item-img {
+        width: 200px;
+        height: 100px;
+      }
+
+      .item-info {
+        height: 100px;
+      }
+
+      .item-description {
+        margin: 10px;
+        height: 20px;
+      }
+
+      .item-description-span {
+        font-size: 10px;
+        margin-top: 10px;
+      }
+
+      .item-link-in-game {
+        width: 80px;
+        height: 25px;
+        border-radius: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+      }
+
+      .item-link-span {
+        font-size: 15px;
+      }
+
+    }
+
+    @media (max-width: 427px) {
+
+      .new-CompanyName {
+        display: none;
+      }
+
+      .item-description-span {
+        font-size: 8px;
+      }
+
+    }
+
+}
+
 }

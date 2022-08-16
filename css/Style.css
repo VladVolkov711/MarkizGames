@@ -255,7 +255,7 @@ h2 {
 }
 
 .categories-title-openworld {
-  left: 10%;
+  left: 5%;
 }
 
 .categories-title-moba {
@@ -827,7 +827,7 @@ h2 {
 /*---------------block1----------------*/
 
 .new-game .container {
-  height: 331px;
+  height: 350px;
 }
 
 .item {
@@ -871,6 +871,10 @@ h2 {
 
 .text-description {
   font-size: 10px;
+}
+
+.link {
+  height: 50px;
 }
 
 .link-in-game {
