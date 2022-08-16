@@ -15,7 +15,7 @@
 }
 
 .games {
-  height: 485px;
+  height: 785px;
 }
 
 .item-games {
@@ -51,7 +51,7 @@
 }
 
 .item-description-span {
-  font-size: 17px;
+  font-size: 16px;
   margin-top: 20px;
   color: white;
 }
@@ -75,7 +75,7 @@
 }
 
 .item-link-span {
-  font-size: 20px;
+  font-size: 30px;
   color:  #659DBD;
 }
 
