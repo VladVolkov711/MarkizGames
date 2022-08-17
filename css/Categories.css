@@ -46,19 +46,24 @@
 }
 
 .item-description {
-  margin: 20px;
-  height: 100px;
+  padding: 20px;
+  height: 120px;
 }
 
 .item-description-span {
   font-size: 16px;
-  margin-top: 20px;
   color: white;
 }
 
 .item-link {
   width: 100%;
-  height: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.item-link-a {
+  padding-left: 20px;
 }
 
 .item-link-in-game {
@@ -66,7 +71,7 @@
   height: 50px;
   border-style: none;
   border-radius: 40px;
-  margin-left: 20px;
+  //margin-left: 20px;
   cursor: pointer;
 }
 
@@ -138,21 +143,27 @@
   }
 
   .item-description {
-    margin: 15px;
-    height: 80px;
+    height: 100px;
+    padding: 10px;
   }
 
   .item-description-span {
     font-size: 13px;
-    margin-top: 15px;
+    padding: 0px;
+  }
+
+  .item-link {
+    height: 80px;
+  }
+
+  .item-link-a {
+    padding-left: 10px;
   }
 
   .item-link-in-game {
     border-radius: 40px;
     width: 100px;
     height: 40px;
-    margin-left: 20px;
-    margin-top: 20px;
     }
   }
 
@@ -170,25 +181,32 @@
     width: 250px;
     height: 150px;
   }
+
   .item-info {
     height: 150px;
   }
 
   .item-description {
-    margin: 10px;
+    padding: 5px;
+    height: 90px;
+  }
+
+  .item-link {
+    height: 60px;
+  }
+
+  .item-link-a {
+    padding-left: 5px;
   }
 
   .item-description-span {
     font-size: 10px;
-    margin-top: 10px;
   }
 
   .item-link-in-game {
     border-radius: 40px;
     width: 90px;
     height: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
     }
   }
 
@@ -203,16 +221,11 @@
     }
 
     .item-img {
-      width: 190px;
-    }
-
-    .item-description {
-      margin: 5px;
+      width: 160px;
     }
 
     .item-description-span {
-      font-size: 8px;
-      margin-top: 10px;
+      font-size: 10px;
     }
 
 }
@@ -224,7 +237,7 @@
     }
 
     .item-img {
-      width: 150px;
+      width: 120px;
       height: 120px;
     }
 
@@ -232,21 +245,10 @@
       height: 120px;
     }
 
-    .item-description {
-      margin: 5px;
-    }
-
-    .item-description-span {
-      font-size: 8px;
-      margin-top: 10px;
-    }
-
     .item-link-in-game {
       border-radius: 15px;
       width: 75px;
       height: 25px;
-      margin-left: 5px;
-      margin-top: 5px;
       }
     }
 
@@ -266,22 +268,25 @@
         }
 
         .item-info {
-          height: 90px;
+          height: 130px;
         }
 
         .item-description {
-          margin-left: 10px;
-          height: 40px;
+          height: 100px;
+        }
+
+        .item-img {
+          height: 130px;
+        }
+
+        .item-link {
+          height: 30px;
         }
 
         .item-description-span {
-          font-size: 7px;
-          margin-top: 0px;
-        }
-
-        .item-link-in-game {
-          margin-left: 50px;
-          margin-top: 10px;
+          font-size: 9px;
+          padding: 0.5em 0;
+          //line-height: 1px;
         }
 
         .item-link-span {
@@ -290,7 +295,11 @@
 
     }
 
-    @media (max-width: 510px) {
+    @media (max-width: 528px) {
+
+      .games {
+          height: 1000px;
+      }
 
       .item-games {
         display: flex;
@@ -308,29 +317,25 @@
 
       .item-img {
         width: 200px;
-        height: 100px;
+        height: 140px;
       }
 
       .item-info {
-        height: 100px;
+        height: 140px;
       }
 
       .item-description {
-        margin: 10px;
-        height: 20px;
+        height: 100px;
       }
 
       .item-description-span {
-        font-size: 10px;
-        margin-top: 10px;
+        font-size: 15px;
       }
 
       .item-link-in-game {
         width: 80px;
         height: 25px;
         border-radius: 30px;
-        margin-left: 10px;
-        margin-top: 30px;
       }
 
       .item-link-span {
@@ -346,7 +351,20 @@
       }
 
       .item-description-span {
-        font-size: 8px;
+        font-size: 9px;
+      }
+
+      .item-img {
+        width: 150px;
+        height: 130px;
+      }
+
+      .item-info {
+        height: 130px;
+      }
+
+      .item-description {
+        height: 90px;
       }
 
     }
