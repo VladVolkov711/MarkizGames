@@ -970,3 +970,42 @@ h2 {
 
 /*---------------footer----------------*/
 }
+
+@media (max-width: 390px) {
+
+  .new-game .container {
+    height: 356px;
+  }
+
+  .categories-title {
+    padding: 5px;
+  }
+
+  .description {
+    margin-left: 10px;
+  }
+
+  .categories-a {
+    margin-left: 1px;
+    margin-right: 74px;
+    margin-bottom: 74px;
+  }
+
+  .categories-title-block {
+    left: 32%;
+    font-size: 10px;
+  }
+
+  .categories-title-shooter {
+    left: 28%;
+  }
+
+  .categories-title-casual {
+    left: 20%;
+  }
+
+  .categories-title-openworld {
+    left: 9px;
+  }
+
+}
